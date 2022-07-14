@@ -92,6 +92,9 @@ Get-ChildItem | Select-Object Name,FullName,CreationTime,LastAccessTime | Export
 # Get Uptime PowerShell Core (6+)
 Get-Uptime
 
+# Get Last Boot Time
+[Management.ManagementDateTimeConverter]::ToDateTime( (Get-WmiObject -Class Win32_OperatingSystem -ComputerName COMPUTER01 | Select-Object -ExpandProperty LastBootUpTime) )
+
 # Get Local Group Members
 Get-LocalGroupMember -Group Administrators
 
