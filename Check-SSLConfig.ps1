@@ -94,7 +94,7 @@ Function Start-WebRequest {
             LogData "Web request error: $URL"
             LogData "Web request error: $ErrorMessage" 
         }
-        Write-Host "`nError poerforming operation: $Operation`n" -ForegroundColor Red
+        Write-Host "`nError performing operation: $Operation`n" -ForegroundColor Red
         Write-Host "`nWeb request error: $URL`n" -ForegroundColor Red
         Write-Host "`nWeb request error: $ErrorMessage`n" -ForegroundColor Red
         return $False
