@@ -8,3 +8,4 @@ A collection of PowerShell scripts and snippets I've written over the years.  St
 | (Mostly) One Liners.ps1 | Various one liners I've used over the years to get the job done quickly, and a permanent home for stuff I routinely forget. |
 | Get-Certificates.ps1 | Grabs information on certificate configured on a host.  I use it to check my work post renewal. |
 | Get-AzNSGRules.ps1 | Get all Network Security Groups, rules, associated subnets and VMs and output to html. |
+| Get-MozillaObs.ps1 | Automate Mozilla Observatory tests on external websites. |
