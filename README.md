@@ -11,3 +11,4 @@ A collection of PowerShell scripts and snippets I've written over the years.  St
 | Get-MozillaObs.ps1 | Automate Mozilla Observatory tests on external websites. |
 | Get-SChannelLogs.ps1 | Get SChannel logs on a windows host, to determine tls version and ciphers in use. |
 | Start-WSUSCheckin.ps1 | WSUS Clients to Check in on Demand <br> Based on the excellent work here: https://pleasework.robbievance.net/howto-force-really-wsus-clients-to-check-in-on-demand/ |
+| Create-PhishingMailGroups | Create CSV files for importing users into GoPhish: https://getgophish.com/ |
